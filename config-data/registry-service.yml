@@ -1,10 +1,10 @@
 server:
-port: 8099
+  port: 8099
 
-eureka: 
+eureka:
   instance:
     hostname: localhost
-  client: 
+  client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
